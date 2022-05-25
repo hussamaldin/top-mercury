@@ -9,13 +9,13 @@
           <div class="w-[350px] rounded-full absolute bottom-[-180px] left-[-80px] h-[350px] bg-yellow-500"></div>
         </div>
         <div class="xl:w-[48%] ph:w-full xl:h-full ph:h-auto flex justify-center items-center">
-          <div class="xl:w-[65%] ph:w-[95%] ph:text-center">
+          <div class="xl:w-[65%] ph:w-[95%] xl:text-left ph:text-center">
           <div class="my-4 text-blue-500 ph:text-sm xl:text-xl">RUN PROFITABLE ADS ON FACEBOOK & MORE</div>
           <div class=" ph:text-2xl xl:text-5xl my-4 font-bold">Let's DominatePaid Social</div>
           <div class="text-gray-400 my-4 text-lg">Scale your business with results driven paid advertising across social platforms.</div>
           <div class="flex flex-row ph:flex-wrap my-4 justify-between">
-            <div class="ph:w-full mx-2 xl:w-[200px]"><button class="ph:w-full ph:m-2 rounded-2xl text-lg text-white duration-500 p-4 bg-blue-500 hover:bg-blue-600 hover:translate-y-[-3px]">Get In Touch</button></div>
-            <div class="ph:w-full mx-2 xl:w-[200px]"><button class="ph:w-full ph:m-2  p-4 rounded-2xl text-lg text-blue-600 hover:text-white duration-500 border-2 border-blue-600 hover:bg-blue-600 hover:translate-y-[-3px]">Browse Service</button></div>
+            <div class="ph:w-full mx-2 xl:w-[200px]"><button class="w-full ph:m-2 rounded-2xl text-lg text-white duration-500 p-4 bg-blue-500 hover:bg-blue-600 hover:translate-y-[-3px]">Get In Touch</button></div>
+            <div class="ph:w-full mx-2 xl:w-[200px]"><button class="w-full ph:m-2  p-4 rounded-2xl text-lg text-blue-600 hover:text-white duration-500 border-2 border-blue-600 hover:bg-blue-600 hover:translate-y-[-3px]">Browse Service</button></div>
           </div>
           </div>
 
