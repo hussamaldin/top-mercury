@@ -9,7 +9,7 @@
           <div class="w-[350px] rounded-full absolute bottom-[-180px] left-[-80px] h-[350px] bg-yellow-500"></div>
         </div>
         <div class="xl:w-[48%] ph:w-full xl:h-full ph:h-auto flex justify-center items-center">
-          <div class="xl:w-[65%] ph:w-[95%] xl:text-left ph:text-center">
+          <div class="xl:w-[75%] ph:w-[95%] flex flex-col items-center justify-center">
           <div class="my-4 text-blue-500 ph:text-sm xl:text-xl">RUN PROFITABLE ADS ON FACEBOOK & MORE</div>
           <div class=" ph:text-2xl xl:text-5xl my-4 font-bold">Let's DominatePaid Social</div>
           <div class="text-gray-400 my-4 text-lg">Scale your business with results driven paid advertising across social platforms.</div>
