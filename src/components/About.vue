@@ -1,21 +1,21 @@
 <template>
   <div class="w-full h-full">
       <div class="w-full flex items-center justify-center relative xl:h-[800px] ph:h-[1100px] bg-indigo-700 xl:pb-[150px] ph:pd-[10px]">
-          <div class="w-[400px] h-[400px] slidet opacity-0 overflow-hidden absolute top-0 left-0"><div class="w-full h-full absolute top-[-40px] left-[-90px] bg-blue-800 rounded-full"></div></div>
-          <div class="w-[400px] h-[400px] slidet opacity-0 overflow-hidden absolute top-0 right-0"><div class="w-[300px] h-[300px] absolute top-[-50px] right-[-50px] bg-yellow-400 rounded-full"></div></div>
-          <div class="w-[300px] h-[150px] slidet opacity-0 overflow-hidden absolute bottom-0 right-[550px]"><div class="w-[300px] h-[300px] absolute bottom-0 bg-red-400 rounded-full"></div></div>
-          <div class="w-[300px] bg-blue-800 slidet opacity-0 h-[300px] overflow-hidden absolute bottom-0 right-0"><div class="w-[680px] h-[480px]  bg-blue-500  rotate-45 transform origin-top-right"></div></div>
+          <div class="w-[400px] h-[400px] overflow-hidden absolute top-0 left-0"><div class="w-full h-full absolute top-[-40px] left-[-90px] bg-blue-800 rounded-full"></div></div>
+          <div class="w-[400px] h-[400px]  overflow-hidden absolute top-0 right-0"><div class="w-[300px] h-[300px] absolute top-[-50px] right-[-50px] bg-yellow-400 rounded-full"></div></div>
+          <div class="w-[300px] h-[150px]  overflow-hidden absolute bottom-0 right-[550px]"><div class="w-[300px] h-[300px] absolute bottom-0 bg-red-400 rounded-full"></div></div>
+          <div class="w-[300px] bg-blue-800  h-[300px] overflow-hidden absolute bottom-0 right-0"><div class="w-[680px] h-[480px]  bg-blue-500  rotate-45 transform origin-top-right"></div></div>
           <div class="xl:w-[90%] ph:w-[100%] h-[100%] flex flex-row ph:flex-wrap z-30">
               <div class="xl:w-[48%] xl:order-1 p-[20px] ph:order-2 ph:w-full xl:h-full ph:h-[50%]">
-                  <img :src="img1" class="xl:w-full slidet opacity-0 ph:w-full ph:h-[570px] xl:h-[850px] rounded-xl">
+                  <img :src="img1" class="xl:w-full ph:w-full ph:h-[570px] xl:h-[850px] rounded-xl">
               </div>
-          <div class="xl:w-[52%] slidet opacity-0 ph:w-full ph:p-[30px] xl:p-[100px] xl:h-full ph:h-[50%] xl:order-2 ph:order-1">
+          <div class="xl:w-[52%]  ph:w-full ph:p-[30px] xl:p-[100px] xl:h-full ph:h-[50%] xl:order-2 ph:order-1">
             <div class="text-white ph:text-sm xl:text-lg my-4">ABOUT TOPMERCURY</div>
             <div class="ph:text-2xl xl:text-4xl text-white font-bold my-4">Meet Our Founder,Adam Lawrence</div>
             <div class="text-white ph:text-sm xl:text-lg leading-8 my-4">Adam Lawrence is a certified Facebook Marketing Partner with over a decade of paid social experience delivering unparalleled bottom line results. Every client works directly with Adam.</div>
             <div class="flex flex-row ph:flex-wrap justify-between ">
-                <div class="ph:w-full mx-2 xl:w-[200px]"><button class="w-full slidet opacity-0 ph:m-2  rounded-2xl my-4 mx-2 text-lg text-blue-800 duration-500 p-4 bg-gray-50 hover:text-white hover:bg-red-600 hover:translate-y-[-3px]">Get in Touch</button></div>
-                <div class="ph:w-full mx-2 xl:w-[200px]"><button class="w-full slidet opacity-0 ph:m-2  rounded-2xl my-4 mx-2 text-lg text-white duration-500 p-4 bg-transparent-100 hover:bg-red-600 outline-1 outline outline-white hover:outline-red-600 border-white hover:translate-y-[-3px]">Our Service</button></div>
+                <div class="ph:w-full mx-2 xl:w-[200px]"><button class="w-full ph:m-2  rounded-2xl my-4 mx-2 text-lg text-blue-800 duration-500 p-4 bg-gray-50 hover:text-white hover:bg-red-600 hover:translate-y-[-3px]">Get in Touch</button></div>
+                <div class="ph:w-full mx-2 xl:w-[200px]"><button class="w-full ph:m-2  rounded-2xl my-4 mx-2 text-lg text-white duration-500 p-4 bg-transparent-100 hover:bg-red-600 outline-1 outline outline-white hover:outline-red-600 border-white hover:translate-y-[-3px]">Our Service</button></div>
             </div>
               </div>
               

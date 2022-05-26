@@ -492,8 +492,35 @@ x.classList.add('translate-x-[-'+this.tra+'px]')
   
    console.log('translate-x-['+this.tra+'px]')
   },
+  reportW(){
+              var viewportWidth = window.innerWidth;
+          
+    if ( viewportWidth <= 720 ) {
+this.view=viewportWidth
+ var x = document.getElementsByClassName("solo");
+ var i;
+  for (i = 0; i < x.length; i++) {
+    if(viewportWidth <= 640){
+x[i].classList.add('ph:w-screen')
+    }
+
+  }
+
+    } 
+    else{
+   var newvw=Math.floor(viewportWidth/3)
+
+    var y = document.getElementsByClassName("solo");
+ var r;
+     for (r = 0; r < y.length; r++) {
+y[r].classList.add('xl:w-['+newvw+'px]')
+
+  }
+    }
+  }
 },
 mounted(){
+  window.addEventListener('resize', this.reportW);
    window.addEventListener('scroll', this.onLoaded);
           var viewportWidth = window.innerWidth;
           
