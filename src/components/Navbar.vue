@@ -2,13 +2,13 @@
   <div class="w-full h-[110px] flex items-center border-b border-gray-300 p-2">
       <div class="w-full h-[60%] ph:px-[10px] xl:px-[70px] items-center flex flex-row ph:justify-between xl:justfiy-between">
           <div class="ph:w-[68%] xl:w-[50%]">
-              <div class="ph:w-[100%] xl:w-[80%] h-[100%] cursor-pointer duration-500 hover:scale-95"><img :src="img1" class="ph:w-[80%] xl:w-[50%] h-[90%]"></div>
+              <div class="ph:w-[100%] xl:w-[80%] h-[100%] cursor-pointer"><a href="/"><img :src="img1" class="ph:w-[80%] duration-500 hover:scale-95 xl:w-[50%] h-[90%]"></a></div>
           </div>
           <div class="ph:w-[30%] h-[100%] relative ph:justify-end xl:w-[50%] flex items-center  justify-between xl:hidden ph:block">
           <div  @click="change()" class="w-[35px] absolute top-[15px] right-[5px] flex flex-col justify-center items-center h-[35px] bg-red-500">
-              <div class="par1 w-[22px] duration-500 h-[4px] bg-white"></div>
+              <div class="par1 w-[22px] duration-500 h-[4px] absolute bg-white"></div>
               <div class="par2 w-[22px] duration-500 h-[4px] my-1 bg-white"></div>
-              <div class="par3 w-[22px] duration-500 h-[4px] bg-white"></div>
+              <div class="par3 w-[22px] duration-500 h-[4px] absolute bg-white"></div>
           </div>
           </div>
           <div class="flex flex-row justify-between w-[50%] xl:flex h-full ph:hidden">  
@@ -47,16 +47,17 @@ data(){
 methods:{
         change(){
         this.$store.commit('change')
+                          var g = document.querySelector('.par2');
+         g.classList.toggle('hidden')
                  var x = document.querySelector('.par1');
-                         x.classList.toggle('absolute')
+                         
          x.classList.toggle('rotate-45')
  
                   var c = document.querySelector('.par3');
-                           c.classList.toggle('absolute')
+                           
          c.classList.toggle('-rotate-45')
 
-                  var g = document.querySelector('.par2');
-         g.classList.toggle('hidden')
+
     },
     cha(){
 

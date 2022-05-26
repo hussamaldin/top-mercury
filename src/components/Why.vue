@@ -20,9 +20,9 @@
       </div>
       <div class="w-full xl:h-[1000px] ph:h-auto ph:p-[25px] xl:p-[50px] bg-gray-100 mb-[130px]">
         <div class="flex flex-row ph:flex-wrap items-center">
-          <div class="xl:w-[50%] xl:order-1 ph:order-2  ph:w-full border-1 relative border-gray-200 rounded-xl">
+          <div class="xl:w-[50%] slidet opacity-0 xl:order-1 ph:order-2  ph:w-full border-1 relative border-gray-200 rounded-xl">
                 <div :class="[cont==1 ?'ph:w-[270px] xl:w-[550px] rounded-xl opacity-100 duration-500 border-1 shadow-xl border-gray-200 absolute bottom-[-80px] right-[-20px] bg-white z-10 ph:p-[20px] xl:p-[50px] ph:h-[400px] xl:h-[350px]':'hidden translate-x-[-400px] duration-500']">
-                  <div class="w-[80%]">
+                  <div class="w-[80%] slidet opacity-0">
                     <div><span class="mx-2"><i class="fa fa-star ph:text-lg xl:text-2xl text-yellow-400"></i></span><span class="mx-2"><i class="fa fa-star ph:text-lg xl:text-2xl text-yellow-400"></i></span><span class="mx-2"><i class="fa fa-star ph:text-lg xl:text-2xl text-yellow-400"></i></span><span class="mx-2"><i class="fa fa-star ph:text-lg xl:text-2xl text-yellow-400"></i></span><span class="mx-2"><i class="fa fa-star ph:text-lg xl:text-2xl text-yellow-400"></i></span></div>
                     <div class="ph:text-lg xl:text-xl my-4 text-gray-400">“TopMercury has completely reworked our paid social strategy and is growing our brand with industry-leading ROAS. You are in good hands."</div>
                     <div class="ph:text-lg xl:text-xl mt-4 font-bold">Josh Walker</div>
@@ -35,7 +35,7 @@
                 </div>
             <div :class="[cont==1 ?'rounded-xl w-full  opacity-100 h-full duration-500':'hidden translate-x-[-400px] opacity-100 duration-500']"><img class="z-50 rounded-xl w-full h-full" :src="m1"></div>
                             <div :class="[cont==2 ?'ph:w-[270px] xl:w-[550px]  opacity-100 rounded-xl duration-500 border-1 shadow-xl opacity-100 border-gray-200 absolute bottom-[-80px] right-[-20px] bg-white z-10 ph:p-[20px] xl:p-[50px] ph:h-[400px] xl:h-[350px]':'hidden translate-x-[-400px] duration-500']">
-                  <div class="w-[80%]">
+                  <div class="w-[80%] slidet opacity-0">
                     <div><span class="mx-2"><i class="fa fa-star  ph:text-lg xl:text-2xl text-yellow-400"></i></span><span class="mx-2"><i class="fa fa-star  ph:text-lg xl:text-2xl text-yellow-400"></i></span><span class="mx-2"><i class="fa fa-star  ph:text-lg xl:text-2xl text-yellow-400"></i></span><span class="mx-2"><i class="fa fa-star  ph:text-lg xl:text-2xl text-yellow-400"></i></span><span class="mx-2"><i class="fa fa-star  ph:text-lg xl:text-2xl text-yellow-400"></i></span></div>
                     <div class="ph:text-lg xl:text-xl my-4 text-gray-400">“Adam and TopMercury did in 2 weeks what 4 other Upwork hires couldn't do in over 2 years. I wish I found them sooner...”</div>
                     <div class="ph:text-lg xl:text-xl mt-4 font-bold">Michelle Demaree</div>
@@ -48,7 +48,7 @@
                 </div>
             <div :class="[cont==2 ?'rounded-xl w-full  opacity-100 duration-500 h-full':' duration-500 translate-x-[-400px] hidden']"><img class="z-50 rounded-xl w-full h-full" :src="m2"></div>
             </div>
-          <div class="xl:w-[50%] xl:order-2 ph:order-1 ph:w-full h-full ph:p-[15px] xl:p-[100px]">
+          <div class="xl:w-[50%] slidet opacity-0 xl:order-2 ph:order-1 ph:w-full h-full ph:p-[15px] xl:p-[100px]">
             <div class="text-blue-500 ph:text-sm xl:text-lg my-4">WHAT WE'VE ACCOMPLISHED</div>
             <div class=" ph:text-2xl xl:text-4xl font-bold my-4">We Treat Our Clients Like Business Partners</div>
             <div class="text-gray-400  ph:text-sm xl:text-lg leading-8 my-4">We have over a decade of experience delivering 
@@ -65,7 +65,7 @@
 
             <div class="w-full ph:h-auto xl:h-[800px] ph:pd-[50px] xl:pb-[100px] my-[100px]">
         <div class="flex flex-row ph:flex-wrap justify-center items-center">
-          <div class="ph:w-full xl:w-[50%] p-[50px]">
+          <div class="ph:w-full xl:w-[50%] slidet opacity-0 p-[50px]">
             <div class="text-blue-500 text-lg my-[50px]">WHY TOPMERCURY?</div>
             <div class="ph:text-xl xl:text-4xl font-bold my-[50px]">A Professional Service Run Like A Professional Service</div>
             <div class="text-gray-400 ph:text-sm xl:text-lg leading-8 my-[50px] py-4 border-b-2 border-gray-200">Most digital agencies are founded by experts (professionals), yet run by entry-level employees. We don't do that here. At TopMercury, you'll work directly with experts who have over 10,000 hours of experience on social ad platforms.</div>
@@ -73,26 +73,26 @@
             <div class="my-[50px]"><button class="w-[200px] rounded-2xl text-lg text-white duration-500 p-4 bg-blue-700 hover:bg-blue-800 hover:translate-y-[-3px]">About our Team</button></div>
           </div>
             <div class="ph:w-full xl:w-[45%] border-1 relative border-gray-200 rounded-xl">
-            <div class="rounded-xl w-full h-full"><img class=" z-50 rounded-xl w-full ph:h-[750px] xl:h-[880px]" :src="img2"></div>
+            <div class="rounded-xl w-full h-full"><img class=" slidet opacity-0 z-50 rounded-xl w-full ph:h-[750px] xl:h-[880px]" :src="img2"></div>
             </div>
         </div>
       </div>
 
             <div class="w-full ph:h-[250px] xl:h-[400px]">
           <div class="w-full h-full flex flex-row ph:flex-wrap justify-center items-center">
-              <div class="ph:w-[50%] xl:w-[23%] flex items-center flex-col">
+              <div class="ph:w-[50%] slidet opacity-0 xl:w-[23%] flex items-center flex-col">
                   <div class="ph:text-3xl xl:text-5xl font-bold p-2">50M<span class="text-blue-600">+</span></div>
                   <div class="text-gray-500 ph:text-xl xl:text-3xl">Ad Spend Managed</div>
               </div>
-              <div class="ph:w-[50%] xl:w-[23%] flex items-center flex-col">
+              <div class="ph:w-[50%] slidet opacity-0 xl:w-[23%] flex items-center flex-col">
                   <div class="ph:text-3xl xl:text-5xl font-bold p-2">150<span class="text-blue-600">+</span></div>
                   <div class="text-gray-500 ph:text-xl xl:text-3xl">Successful Clients</div>
               </div>
-              <div class="ph:w-[50%] xl:w-[23%] flex items-center flex-col">
+              <div class="ph:w-[50%] slidet opacity-0 xl:w-[23%] flex items-center flex-col">
                   <div class="ph:text-3xl xl:text-5xl font-bold p-2">20K<span class="text-blue-600">+</span></div>
                   <div class="text-gray-500 ph:text-xl xl:text-3xl">Campaigns Launched</div>
               </div>
-              <div class="ph:w-[50%] xl:w-[23%] flex items-center flex-col">
+              <div class="ph:w-[50%] slidet opacity-0 xl:w-[23%] flex items-center flex-col">
                   <div class="ph:text-3xl xl:text-5xl font-bold p-2">ZERO</div>
                   <div class="text-gray-500 ph:text-xl xl:text-3xl">"Gotcha" Contracts</div>
               </div>
@@ -101,13 +101,13 @@
 
                       <div class="w-full h-[1300px] ph:h-auto border-y-2 border-gray-200 mt-[150px] flex justify-center items-center relative">
         <div class="w-full xl:h-[65%] ph:h-[100%] flex flex-row ph:flex-wrap xl:justify-between ph:justify-center  p-4 items-center">
-          <div class="xl:w-[47%] ph:w-full xl:h-full ph:h-auto z-50">
+          <div class="xl:w-[47%] slidet opacity-0 ph:w-full xl:h-full ph:h-auto z-50">
             <div class="text-blue-500 text-xl my-4">READY TO CHAT?</div>
             <div class="text-2xl font-bold my-4">Let's Talk Growth!</div>
             <div class="text-gray-400 text-lg my-4">Don't worry, there are no sleazy salespeople here. You'll speak directly to our founder and you won't be pressured to move forward. We only take on a client if it truly makes sense for everyone. Seriously.</div>
-            <div><img class="w-[280px] h-[200px] my-4 cursor-pointer" :src="met"></div>
+            <div><img class="w-[280px] slidet opacity-0 h-[200px] my-4 cursor-pointer" :src="met"></div>
           </div>
-          <div class="xl:w-[48%] ph:w-[90%] border-1 border-gray-200 rounded-xl shadow-xl xl:p-[50px] ph:p-[20px] h-full ph:h-auto bg-white z-50">
+          <div class="xl:w-[48%] slidet opacity-0 ph:w-[90%] border-1 border-gray-200 rounded-xl shadow-xl xl:p-[50px] ph:p-[20px] h-full ph:h-auto bg-white z-50">
             <form class=" w-full flex  flex-col ph:z-50">
               <div class="w-full flex flex-row ph:flex-wrap justify-between  xl:my-3 ph:my-1">
                 <div class="xl:w-[40%] ph:w-full">
@@ -148,11 +148,11 @@
           </div>
         </div>
         <div class="bg-blue-600 xl:h-full ph:h-[700px] absolute xl:top-0 ph:bottom-0 right-0 w-[450px] z-10">
-          <div class="w-[300px] absolute top-0 right-0 rounded-full h-[300px] bg-yellow-400"></div>
-          <div class="w-[250px]  absolute bottom-0 right-0 overflow-hidden inline-block">
-         <div class="h-[400px] bg-red-500 rotate-45 transform origin-bottom-left"></div>
+          <div class="w-[300px] slidet opacity-0 absolute top-0 right-0 rounded-full h-[300px] bg-yellow-400"></div>
+          <div class="w-[250px] slidet opacity-0  absolute bottom-0 right-0 overflow-hidden inline-block">
+         <div class="h-[400px] slidet opacity-0 bg-red-500 rotate-45 transform origin-bottom-left"></div>
          </div>
-          <div class="w-[300px] translate-x-[-150px] absolute bottom-0 left-0 h-[300px] bg-blue-700"></div>
+          <div class="w-[300px] slidet opacity-0 translate-x-[-150px] absolute bottom-0 left-0 h-[300px] bg-blue-700"></div>
         </div>
       </div>
   </div>
@@ -170,7 +170,26 @@ data(){
     cont:1
     }
 },
+mounted(){
+   window.addEventListener('scroll', this.onLoaded);
+},
 methods:{
+         onLoaded(){
+     var page=window.pageYOffset
+     var x = document.getElementsByClassName("slidet");
+     var i;
+     console.log(page)
+       console.log(x[0].getBoundingClientRect().top)
+          for (i = 0; i < x.length; i++) {
+
+              var c=x[i].getBoundingClientRect().top
+            if(c <= 490){
+       x[i].classList.replace("opacity-0","opacity-100");  
+       x[i].classList.add("animate__animated" ,"animate__fadeIn" ,"animate__fast") 
+            } 
+       
+  }
+       },
   slide(){
     if(this.cont==1){
  this.cont=2

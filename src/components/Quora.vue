@@ -208,11 +208,11 @@
           </div>
         </div>
         <div class="bg-blue-600 xl:h-full ph:h-[700px] absolute xl:top-0 ph:bottom-0 right-0 w-[450px] z-10">
-          <div class="w-[300px] absolute top-0 right-0 rounded-full h-[300px] bg-yellow-400"></div>
-          <div class="w-[250px]  absolute bottom-0 right-0 overflow-hidden inline-block">
-         <div class="h-[400px] bg-red-500 rotate-45 transform origin-bottom-left"></div>
+          <div class="w-[300px] slidet opacity-0 absolute top-0 right-0 rounded-full h-[300px] bg-yellow-400"></div>
+          <div class="w-[250px] slidet opacity-0  absolute bottom-0 right-0 overflow-hidden inline-block">
+         <div class="h-[400px] slidet opacity-0 bg-red-500 rotate-45 transform origin-bottom-left"></div>
          </div>
-          <div class="w-[300px] translate-x-[-150px] absolute bottom-0 left-0 h-[300px] bg-blue-700"></div>
+          <div class="w-[300px] slidet opacity-0 translate-x-[-150px] absolute bottom-0 left-0 h-[300px] bg-blue-700"></div>
         </div>
       </div>
       </div>
@@ -251,6 +251,7 @@ data(){
 },
 mounted(){
    window.addEventListener('scroll', this.onLoaded);
+    window.addEventListener('scroll', this.onLoade);
    var lastScrollTop = 0;
 
 // element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
@@ -276,6 +277,23 @@ window.addEventListener("scroll", function(){ // or window.addEventListener("scr
    lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 }, false);
 },
+methods:{
+         onLoade(){
+     var page=window.pageYOffset
+     var x = document.getElementsByClassName("slidet");
+     var i;
+     console.log(page)
+       console.log(x[0].getBoundingClientRect().top)
+          for (i = 0; i < x.length; i++) {
+
+              var c=x[i].getBoundingClientRect().top
+            if(c <= 490){
+       x[i].classList.replace("opacity-0","opacity-100");  
+       x[i].classList.add("animate__animated" ,"animate__fadeIn" ,"animate__slow") 
+            } 
+          }
+  }
+       },
 methods:{
        onLoaded(){
            
