@@ -21,7 +21,7 @@
               <div class="flex flex-row ph:flex-wrap  justify-between">
               <div class="xl:w-[60%] ph:w-full flex flex-row ph:flex-wrap justify-between">
                   <div class="xl:w-[50%] ph:w-full">
-                      <div class="text-xl  slidet opacity-0 text-blue-500 my-4">Quick Links</div>
+                      <div class="text-xl  slidet opacity-0 text-blue-500 my-4">Quick Links for hussam</div>
                       <div class="flex flex-row justify-between">
                       <div class="w-[45%]">
                           <ul class="  slidet opacity-0">
